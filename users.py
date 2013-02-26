@@ -1,4 +1,3 @@
-
 import uuid
 import gevent
 import random
@@ -44,20 +43,8 @@ class DB:
 
 users = DB()
 users.set("shykes", {"email": "solomon@dotcloud.com", "first_name": "Solomon", "last_name": "Hykes"})
-users.set("andrea", {"email": "andrea@dotcloud.com", "first_name": "Andrea", "last_name": "Luzzardi"})
-users.set("sam", {"email": "sam@dotcloud.com", "first_name": "Sam", "last_name": "Alba"})
-users.set("eric", {"email": "eric@dotcloud.com"})
-users.set("jr", {"email": "jr@dotcloud.com"})
-users.set("joffrey", {"email": "joffrey@dotcloud.com"})
-users.set("yusuf", {"email": "yusuf@dotcloud.com"})
-users.set("jed", {"email": "jed@dotcloud.com"})
-users.set("jerome", {"email": "jerome@dotcloud.com"})
-users.set("ken", {"email": "ken@dotcloud.com"})
-users.set("louis", {"email": "louis@dotcloud.com"})
-users.set("chris", {"email": "chris@dotcloud.com"})
-users.set("elena", {"email": "elena@dotcloud.com"})
-users.set("yannis", {"email": "yannis@dotcloud.com"})
-users.set("charles", {"email": "charles@dotcloud.com"})
+users.set("yourname",{"email": "yourname@example.com", "first_name": "Teh", "last_name": "Awesomesauce"})
+users.set("sample",{"email": "example@example.com", "first_name": "Pat", "last_name": "Just"})
 
 
 class UserService:
